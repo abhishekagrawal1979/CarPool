@@ -16,7 +16,7 @@ class CarPooleController {
 
     @GetMapping("/")
     fun firstSampleFunction(): String {
-        return  "Hello"
+        return DistanceCalculator().toString()
     }
 
 
