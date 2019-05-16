@@ -9,7 +9,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2
 @RestController
 @EnableSwagger2
 
-class CarPooleController {
+class CarPoolController {
 
     val name: String = "Abhi"
 
